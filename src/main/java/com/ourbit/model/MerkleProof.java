@@ -11,7 +11,7 @@ import java.util.function.Consumer;
 
 /**
  * MerkleProof
- * @author OurbitOBOfficial
+ * @author OurbitOfficial
  * @date 2025/02/25 23:40
  */
 public class MerkleProof {
@@ -49,7 +49,7 @@ public class MerkleProof {
      * validate
      * A new root is being introduced through the path and self provided by the user. Compare with the root in the path
      * @return {@link boolean }
-     * @author OurbitOBOfficial
+     * @author OurbitOfficial
      * @date 2025/02/27 11:54
      */
     public boolean validate() {
@@ -57,7 +57,7 @@ public class MerkleProof {
         TreeNode oldRoot = path.get(path.size() - 1);
 
         Map<String, BigDecimal> newRootBalanceAdded = MerkleCommonUtils.getBalanceMapForCalcHash(newRoot.getBalances(), false) ;
-        Map<String, BigDecimal> oldRootBalanceAdded = MerkleCommonUtils.getBalanceMapForCalcHash(newRoot.getBalances(), false) ;
+        Map<String, BigDecimal> oldRootBalanceAdded = MerkleCommonUtils.getBalanceMapForCalcHash(oldRoot.getBalances(), false) ;
 
         STATIC_ALL_ENABLED_CURRRENCIES.forEach(new Consumer<String>() {
             @Override
@@ -65,6 +65,8 @@ public class MerkleProof {
                 System.out.println(curreny+": Generate balance "+newRootBalanceAdded.get(curreny)+", balance from file "+oldRootBalanceAdded.get(curreny));
             }
         });
+
+        System.out.println("Generated hash "+newRoot.getHash()+", hash from file "+oldRoot.getHash());
 
         if (newRoot.getHash().equals(oldRoot.getHash()) && newRoot.validateEqualsBalances(oldRoot) && newRoot.getLevel().equals(oldRoot.getLevel())) {
             return true;

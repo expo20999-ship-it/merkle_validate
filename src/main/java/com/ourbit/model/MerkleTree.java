@@ -13,7 +13,7 @@ import static com.ourbit.constants.TreeNodeRoleConstants.ROOT_NODE;
 
 /**
  * 默克尔树
- * @author OurbitOBOfficial
+ * @author OurbitOfficial
  * @date 2025/02/26 00:04
  */
 public class MerkleTree {
@@ -24,7 +24,7 @@ public class MerkleTree {
      * @param path
      * @param self
      * @return {@link TreeNode }
-     * @author OurbitOBOfficial
+     * @author OurbitOfficial
      * @date 2025/02/27 11:56
      */
     public TreeNode buildMerkelTreeRoot(List<TreeNode> path, TreeNode self) {
@@ -49,7 +49,7 @@ public class MerkleTree {
      * @param friend
      * @param self
      * @return {@link TreeNode }
-     * @author OurbitOBOfficial
+     * @author OurbitOfficial
      * @date 2025/02/27 11:57
      */
     TreeNode createParentTreeNode(TreeNode friend, TreeNode self) {
@@ -96,7 +96,7 @@ public class MerkleTree {
      * clearAssetsMap
      * @param right
      * @return {@link java.util.Map<java.lang.String,java.math.BigDecimal> }
-     * @author OurbitOBOfficial
+     * @author OurbitOfficial
      * @date 2025/02/27 11:59
      */
     private static TreeMap<String, BigDecimal> clearAssetsMap(TreeNode right) {
@@ -111,7 +111,7 @@ public class MerkleTree {
      * createEmptyTreeNode
      * @param source
      * @return {@link TreeNode }
-     * @author OurbitOBOfficial
+     * @author OurbitOfficial
      * @date 2025/02/25 23:40
      */
     private TreeNode createEmptyTreeNode(TreeNode source){

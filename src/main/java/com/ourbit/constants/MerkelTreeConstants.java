@@ -2,7 +2,7 @@ package com.ourbit.constants;
 
 /**
  * MerkelTreeConstants
- * @author OurbitOBOfficial
+ * @author OurbitOfficial
  * @date 2025/02/25 23:03
  */
 public class MerkelTreeConstants {

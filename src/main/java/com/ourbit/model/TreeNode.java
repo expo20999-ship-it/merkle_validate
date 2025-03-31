@@ -14,7 +14,7 @@ import java.util.TreeMap;
 
 /**
  * TreeNode
- * @author OurbitOBOfficial
+ * @author OurbitOfficial
  * @date 2025/02/25 23:39
  */
 public class TreeNode {
@@ -78,7 +78,7 @@ public class TreeNode {
     /**
      * 验证self节点
      * @return {@link boolean }
-     * @author OurbitOBOfficial
+     * @author OurbitOfficial
      * @date 2025/02/25 23:44
      */
     public boolean validateSelf() {
@@ -89,7 +89,7 @@ public class TreeNode {
     /**
      * 验证Path节点数据
      * @return {@link boolean }
-     * @author OurbitOBOfficial
+     * @author OurbitOfficial
      * @date 2025/02/25 23:45
      */
     public boolean validatePath() {
@@ -102,7 +102,7 @@ public class TreeNode {
     /**
      * 验证资产集合
      * @return {@link boolean }
-     * @author OurbitOBOfficial
+     * @author OurbitOfficial
      * @date 2025/02/25 22:30        
      */
     public boolean validateBalances() {
@@ -143,7 +143,7 @@ public class TreeNode {
     /**
      * validateEqualsBalances
      * @return {@link boolean }
-     * @author OurbitOBOfficial
+     * @author OurbitOfficial
      * @date 2025/02/25 22:30
      */
     public boolean validateEqualsBalances(TreeNode oldRoot) {

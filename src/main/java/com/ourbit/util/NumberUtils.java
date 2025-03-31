@@ -2,7 +2,7 @@ package com.ourbit.util;
 
 /**
  * NumberUtils
- * @author OurbitOBOfficial
+ * @author OurbitOfficial
  * @date 2025/03/23 21:31
  */
 public class NumberUtils {
@@ -10,7 +10,7 @@ public class NumberUtils {
      * 获取数字为2的几次幂
      * @param number 数字
      * @return {@link int }
-     * @author OurbitOBOfficial
+     * @author OurbitOfficial
      * @date 2025/03/23 21:30
      */
     public static int isTimesTwo(int number) {

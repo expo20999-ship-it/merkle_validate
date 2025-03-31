@@ -1,4 +1,4 @@
-# Proof of Reserves Licensed to OurbitOBOfficial 
+# Proof of Reserves Licensed to OurbitOfficial 
 ## Background
 
 Ourbit launches Proof of Reserve (PoR) to improve the security and transparency of user assets. These tools will allow you to independently audit Ourbit’s Proof of Reserves as well as verify that Ourbit’s reserves have exceeded the exchange’s known liabilities to all users to confirm Ourbit’s solvency.

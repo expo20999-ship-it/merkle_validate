@@ -13,7 +13,7 @@ import java.nio.file.Path;
 /**
  * Verify whether the account assets are included in the Merkle tree published by Ourbit
  *
- * @author OurbitOBOfficial
+ * @author OurbitOfficial
  */
 public class OurbitMerkleValidator {
     /**
@@ -47,7 +47,7 @@ public class OurbitMerkleValidator {
      * validate
      * @param merkleProof
      * @return
-     * @author OurbitOBOfficial
+     * @author OurbitOfficial
      * @date 2025/03/25 20:29
      */
     private static boolean validate(MerkleProof merkleProof){
@@ -79,7 +79,7 @@ public class OurbitMerkleValidator {
     /**
      * get demo_merkel_tree_ourbit.json content
      *
-     * @author OurbitOBOfficial
+     * @author OurbitOfficial
      * @date 2025/02/25 16:53
      */
     private static String getMerkleJsonFile() {

@@ -1,7 +1,7 @@
 package com.ourbit.constants;
 
 /** TreeNodeRoleConstants
- * @author OurbitOBOfficial
+ * @author OurbitOfficial
  * @date 2025-02-18 16:14
  * @desc
  **/
